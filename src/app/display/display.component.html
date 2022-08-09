@@ -1,0 +1,7 @@
+<p>display works!</p>
+<ul>
+    <li *ngFor="let todo of todoService.todos; index as i;">
+        <h1>{{ todo.reminder }}</h1>
+        <h2>{{todo.completed}}</h2>
+    </li>
+</ul>
